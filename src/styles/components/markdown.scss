@@ -1,5 +1,5 @@
 .markdown {
-  color: var(--color-gray-normal);
+  color: var(--color-gray-dark);
   font-size: 16px;
 
   p {
@@ -7,10 +7,10 @@
   }
 
   a {
-    color: var(--color-gray-normal);
-    text-decoration: underline;
+    color: var(--color-blue-light);
+    text-decoration: none;
     &:hover {
-      color: var(--color-gray-dark);
+      text-decoration: underline;
     }
   }
 
@@ -20,13 +20,13 @@
   h4,
   h5,
   h6 {
-    color: var(--color-gray-normal);
+    color: var(--color-blue-dark);
   }
 
   h1 {
     font-size: 2em;
     margin: 1em 0;
-    font-weight: 300;
+    font-weight: normal;
   }
 
   h2 {
@@ -47,7 +47,7 @@
   pre {
     overflow-x: auto;
     padding: 10px;
-    background: var(--color-gray-dark);
+    background: var(--color-blue-normal);
     -webkit-overflow-scrolling: touch;
   }
 }

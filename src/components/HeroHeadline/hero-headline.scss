@@ -1,19 +1,19 @@
 @import "../../styles/sccs-vars.scss";
 
 .hero-headline {
-  font-size: 38px;
-  font-weight: 300;
+  font-size: 37px;
+  font-weight: bold;
   line-height: 1.2;
   color: var(--color-white);
   padding: 0;
   margin: 0;
 
   &__alt {
-    color: var(--color-gray-light);
+    color: var(--color-blue-light);
   }
 
   &--inverse {
-    color: var(--color-gray-light);
+    color: var(--color-blue-dark);
   }
 
   @media (max-width: $until-sm) {

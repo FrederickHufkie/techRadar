@@ -8,11 +8,13 @@
   box-sizing: border-box;
 
   &.is-active {
-    background: var(--color-gray-dark-alt);
+    background: var(--color-white);
+    color: var(--color-blue-dark);
   }
 
   &:hover {
-    background: var(--color-gray-dark-alt2);
+    background: var(--color-white);
+    color: var(--color-blue-dark);
   }
 
   &:first-child {
@@ -41,7 +43,7 @@
     color: var(--color-white);
 
     &.greyed-out {
-      color: var(--color-gray-light-alt);
+      color: var(--color-gray-light);
     }
   }
 

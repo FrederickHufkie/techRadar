@@ -1,7 +1,7 @@
 .radar-grid {
     position: relative;
     margin-bottom: 50px;
-    color: white;
+    color: var(--color-white);
     display: none;
 }
 
@@ -21,6 +21,10 @@
     text-transform: uppercase;
 }
 
+.quadrant-label .headline {
+    margin-bottom: 10px;
+}
+
 .quadrant-label hr {
     width: 100%;
     margin: 10px 0 10px 0;
@@ -28,7 +32,6 @@
 
 .quadrant-label .description {
     font-size: 14px;
-    color: #a6b1bb
 }
 
 .quadrant-label .icon-link {
@@ -53,7 +56,6 @@
 }
 
 .radar-legend .icon {
-
     background-position: center;
     margin-right: 5px;
 }
