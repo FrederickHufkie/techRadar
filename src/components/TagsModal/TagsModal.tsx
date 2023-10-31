@@ -13,7 +13,7 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    backgroundColor: "var(--color-gray-dark)",
+    backgroundColor: "var(--color-blue-dark)",
     color: "var(--color-white)",
     padding: 0,
     borderRadius: "20px",
@@ -64,7 +64,7 @@ export default function TagsModal({
         >
           <span className="icon icon--close" />
         </button>
-        <h4 className="headline tags-modal__title">Choose your filters</h4>
+        <h4 className="headline tags-modal__title">Filter by Tags</h4>
         <ul
           className="tags-modal__list"
           style={{ columns: Math.ceil(tags.length / 8) }}

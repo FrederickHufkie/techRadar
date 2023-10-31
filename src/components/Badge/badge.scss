@@ -21,22 +21,23 @@
   }
 
   &--all {
-    background: var(--color-gray-normal);
-    border-color: var(--color-gray-normal);
+    background: var(--color-white);
+    border-color: var(--color-white);
+    color: var(--color-blue-dark);
   }
-  &--first {
+  &--adopt {
     background: var(--color-green);
     border-color: var(--color-green);
   }
-  &--second {
+  &--trial {
     background: var(--color-orange);
     border-color: var(--color-orange);
   }
-  &--third {
+  &--assess {
     background: var(--color-blue);
     border-color: var(--color-blue);
   }
-  &--fourth {
+  &--hold {
     background: var(--color-marine);
     border-color: var(--color-marine);
   }

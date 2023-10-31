@@ -197,19 +197,19 @@ For reference have a look at [public/index.html](./public/index.html).
 To change the fonts, create a public folder in your application and put your fonts in it.
 
 Create a `fonts.css` in the public folder and load your fonts.
-> For now only 2 fonts will be used: `DIN normal` and `DIN 300`.
+> For now only 2 fonts will be used: `Roboto Regular (400)` and `Roboto Bold (700)`.
 > Therefore, you only can replace the font files itself, but need to use the font-family and font-weight.
 ```css
 @font-face {
-    font-family: "DIN";
+    font-family: "Roboto";
     src: url("fonts/yourFontFileForNormal");
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "DIN";
-    src: url("fonts/yourFontFileForThin");
-    font-weight: 300;
+    font-family: "Roboto";
+    src: url("fonts/yourFontFileForBold");
+    font-weight: bold;
 }
 ```
 
@@ -294,7 +294,7 @@ To add a help page, create a public folder in your application and put a `messag
       },
       {
         "name": "Tools",
-        "description": "Here we put different software tools - from small helpers to bigger software projects"
+        "description": "Here we put different software tools - from small helpers to bigger software projects."
       },
       {
         "name": "Methods and Patterns",

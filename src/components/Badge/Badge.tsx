@@ -15,7 +15,7 @@ const badgeClass = (type: string, config: ConfigData) => {
   if (!config.rings.includes(type)) {
     return type;
   }
-  return ["first", "second", "third", "fourth"][config.rings.indexOf(type)];
+  return ["adopt", "trial", "assess", "hold"][config.rings.indexOf(type)];
 };
 
 export default function Badge({

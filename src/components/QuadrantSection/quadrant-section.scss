@@ -1,6 +1,10 @@
 @import "../../styles/sccs-vars.scss";
 
 .quadrant-section {
+  &__details {
+    text-transform: uppercase;
+  }
+
   &__header {
     margin-bottom: 20px;
   }

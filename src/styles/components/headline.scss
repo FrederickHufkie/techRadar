@@ -7,9 +7,9 @@ h4.headline {
   padding: 0;
   color: var(--color-white);
   font-size: 20px;
-  font-weight: normal;
+  font-weight: bold;
 
   &--dark {
-    color: var(--color-gray-light);
+    color: var(--color-blue-dark);
   }
 }

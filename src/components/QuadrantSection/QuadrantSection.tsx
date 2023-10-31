@@ -86,7 +86,10 @@ export default function QuadrantSection({
           </div>
           {!big && (
             <div className="split__right">
-              <Link className="icon-link" pageName={`${quadrantName}`}>
+              <Link
+                className="icon-link quadrant-section__details"
+                pageName={`${quadrantName}`}
+              >
                 <span className="icon icon--pie icon-link__icon" />
                 Zoom In
               </Link>
