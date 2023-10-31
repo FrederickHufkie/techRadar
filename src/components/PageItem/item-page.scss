@@ -56,16 +56,17 @@
   gap: 15px;
 }
 
-// TODO set colors for item page only
-// .icon-link {
-//   color: var(--color-gray-dark) !important;
+.page-item {
+  .nav .icon-link {
+    color: var(--color-gray-dark) !important;
 
-//   &:hover {
-//     &:after {
-//       border-bottom-color: var(--color-gray-dark) !important;
-//     }
-//   }
-// }
+    &:hover {
+      &:after {
+        border-bottom-color: var(--color-gray-dark) !important;
+      }
+    }
+  }
+}
 
 .mobile-item-page {
   background: var(--color-white);

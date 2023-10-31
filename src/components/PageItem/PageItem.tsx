@@ -44,6 +44,13 @@ const PageItem: React.FC<Props> = ({
   const { pageItem } = useMessages();
   const quadrantOverview = pageItem?.quadrantOverview || "Quadrant Overview";
 
+  React.useEffect(() => {
+    document.body.classList.add("page-item");
+    return () => {
+      document.body.classList.remove("page-item");
+    };
+  }, []);
+
   const itemsInRing = getItemsInRing(pageName, items);
 
   const { getAnimationState, getAnimationStates } = useAnimations({
